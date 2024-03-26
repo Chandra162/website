@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>FashionStore | Ecommerce Website Design</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.svg" width="150px" height="80px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="product.html">Products</a></li>
+              <li><a href="account.html">Account</a></li>
+              <li><a href="">About</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"
+            ><img src="images/cart.png" width="20px" height="20px"
+          /></a>
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Welcomes To Our <br />
+              Fashion Store
+            </h1>
+            <p>
+              "Your style, unleashed! Explore the latest trends and timeless
+              classics at our fashion store. From everyday essentials to
+              statement pieces, find your perfect look today!".
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/banner.jpg" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/category-1.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-2.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-3.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="productdetails.html"><img src="images/brownshirt.jpg" /></a>
+          <a hr href="productdetails.html"><h4>Brown T-Shirt</h4></a>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$30.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-1.jpg" />
+          <h4>Sneekers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$60.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-2.jpg" />
+          <h4>Sport shoes</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$80.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-3.jpg" />
+          <h4>Pink T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
+      </div>
+
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-5.jpg" />
+          <h4>Leather Shoes</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$52.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-8.jpg" />
+          <h4>Casual Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$35.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-7.jpg" />
+          <h4>Smart Watch</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$700.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-9.jpg" />
+          <h4>Tone Jeans</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-10.jpg" />
+          <h4>Jacket</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$60.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$20.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-12.jpg" />
+          <h4>Trouser</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$37.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-13.jpg" />
+          <h4>Formal Shoes</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$80.00</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/offer.jpg" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusive Available on FashionStore</p>
+            <h1>Noise Pulse 2 Max</h1>
+            <small
+              >The Noise Pluse 2 Max 1.85" Display, Bluetooth Calling Smart
+              Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports
+              Modes, Smartwatch.
+            </small>
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              I have been a customer for over and once again received a good
+              quality beautiful outfit. Thank you Fashion Store.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-1.jpg" />
+            <h3>Rebicca Siri</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              The shirt came earlier than expected and was of great quality.
+              There were no major issues or problems.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-2.jpg" />
+            <h3>Jehan Fletcher</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              I have ordered a few times from this website and they are always
+              very helpful and I get a good personal service!! The clothes are
+              beautiful and personal fitting is amazing ! Highly recommend them!
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-3.jpg" />
+            <h3>Reema Sebetin</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Anddroid and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo.svg" width="150px" height="80px" />
+            <p>
+              Our purpous is to sustainably make the pleasure and benifits of
+              Fashion Accessible to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliates</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2024 - All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight == "200px";
+        } else {
+          MenuItems.style.maxHeight == "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
